@@ -1,0 +1,22 @@
+@startuml 1
+database DB{
+    collections Users
+    collections Apps
+    collections Endpoints
+    collections Roles
+    collections Devices
+    collections Vendors
+    collections Logger
+    collections Telemetry
+    collections Update
+}
+node MS_Users
+node MS_Apps
+node MS_Endpoints
+node MS_Roles
+node MS_Devices
+node MS_Vendors
+node MS_Logger
+node MS_Telemetry
+node MS_Update
+@enduml
